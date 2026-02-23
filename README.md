@@ -2,6 +2,11 @@
 
 React + Vite frontend for the scrapyard acquisition register demo.
 
+## Live Links
+- Live App: `https://scrapyard-frontend-portfolio.onrender.com`
+- Backend API Repo: `https://github.com/matthewjmon/scrapyard-backend-portfolio`
+- Frontend Repo: `https://github.com/matthewjmon/scrapyard-frontend-portfolio`
+
 ## Project Impact
 This frontend represents the portfolio-safe version of a real, paid production application built for a local scrapyard business.
 
@@ -72,7 +77,7 @@ VITE_API_URL=http://localhost:5001/api
 Set `.env.production` before deployment:
 
 ```env
-VITE_API_URL=https://<your-backend-service>.onrender.com/api
+VITE_API_URL=https://scrapyard-backend-portfolio.onrender.com/api
 ```
 
 ## Local Setup
