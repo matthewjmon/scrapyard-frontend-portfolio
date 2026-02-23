@@ -3,9 +3,9 @@
 React + Vite frontend for the scrapyard acquisition register demo.
 
 ## Live Links
-- Live App: `https://scrapyard-frontend-portfolio.onrender.com`
-- Backend API Repo: `https://github.com/matthewjmon/scrapyard-backend-portfolio`
-- Frontend Repo: `https://github.com/matthewjmon/scrapyard-frontend-portfolio`
+- Live App: [scrapyard-frontend-portfolio.onrender.com](https://scrapyard-frontend-portfolio.onrender.com)
+- Backend API Repo: [github.com/matthewjmon/scrapyard-backend-portfolio](https://github.com/matthewjmon/scrapyard-backend-portfolio)
+- Frontend Repo: [github.com/matthewjmon/scrapyard-frontend-portfolio](https://github.com/matthewjmon/scrapyard-frontend-portfolio)
 
 ## Project Impact
 This frontend represents the portfolio-safe version of a real, paid production application built for a local scrapyard business.
