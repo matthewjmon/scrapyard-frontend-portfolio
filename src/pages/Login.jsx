@@ -29,7 +29,7 @@ export default function Login() {
           username: res.username,
           email: res.email,
           businessName: res.businessName || "Your Business",
-        })
+        }),
       );
 
       navigate("/dashboard");
@@ -58,7 +58,10 @@ export default function Login() {
 
   return (
     <div className="d-flex justify-content-center align-items-center vh-100 bg-light container-fluid">
-      <div className="card shadow-sm p-4" style={{ width: "100%", maxWidth: "400px" }}>
+      <div
+        className="card shadow-sm p-4"
+        style={{ width: "100%", maxWidth: "400px" }}
+      >
         <h2 className="text-center mb-4">Login</h2>
 
         <form onSubmit={handleSubmit} autoComplete="on">
@@ -101,17 +104,25 @@ export default function Login() {
               {loading ? "Signing in..." : "Login"}
             </button>
           </div>
-          {error && <div className="alert alert-danger mt-3 mb-0 py-2">{error}</div>}
+          {error && (
+            <div className="alert alert-danger mt-3 mb-0 py-2">{error}</div>
+          )}
         </form>
 
         <div className="border rounded p-3 mt-3 bg-white">
           <div className="d-flex justify-content-between align-items-center mb-2">
             <strong>Demo Access</strong>
-            <button type="button" className="btn btn-sm btn-outline-dark" onClick={useDemoAccount}>
+            <button
+              type="button"
+              className="btn btn-sm btn-outline-dark"
+              onClick={useDemoAccount}
+            >
               Use Demo Account
             </button>
           </div>
-          <div className="small text-muted mb-2">Use these credentials for portfolio review.</div>
+          <div className="small text-muted mb-2">
+            Use these demo credentials to login:
+          </div>
           <div className="d-flex justify-content-between align-items-center mb-1">
             <code>{demoEmail}</code>
             <button
